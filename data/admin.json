@@ -1,0 +1,56 @@
+{
+  "adminPassword": "admin-portfolio-2026",
+  "projects": [
+    {
+      "slug": "analisis-mercado-laboral",
+      "num": "01",
+      "category": "ANALÍTICA MERCADO LABORAL",
+      "title": "Análisis Mercado Laboral 2021–2024",
+      "stack": ["Excel", "Power BI", "Power Query", "DAX"],
+      "summary": "Análisis integral del mercado laboral de EE. UU. en 10 industrias y 50+ estados — establecimientos, empleo y tendencias salariales a partir de 1.919 registros.",
+      "problem": "Los datos del mercado laboral estaban fragmentados entre industrias y estados sin una visión unificada de tendencias de empleo, crecimiento salarial o concentración industrial por región.",
+      "dataset": [
+        { "label": "Conjunto de datos", "value": "Estadísticas Laborales EE. UU. (simulado)" },
+        { "label": "Registros", "value": "1.919" },
+        { "label": "Variables", "value": "Año · Industria · Estado · Establecimientos · Empleados · Salario Anual Promedio" },
+        { "label": "Fuente", "value": "5.3 Dashboard Empleabilidad.xlsx — Hoja 'Datos'" },
+        { "label": "Periodo", "value": "2021–2024" }
+      ],
+      "questions": [
+        "¿Qué industrias impulsan el crecimiento del empleo y los salarios?",
+        "¿Cómo se concentran establecimientos y empleo por estado?",
+        "¿Cuáles son las disparidades salariales entre industrias y regiones?",
+        "¿Qué combinaciones industria-estado muestran mayor crecimiento 2021→2024?"
+      ],
+      "insights": [
+        { "value": "245K", "label": "Pico de empleados (CA, Energía, 2024)" },
+        { "value": "$71,6K", "label": "Salario promedio más alto (AZ, Energía, 2024)" },
+        { "value": "10", "label": "Industrias analizadas" },
+        { "value": "50+", "label": "Estados cubiertos" }
+      ],
+      "conclusion": "El sector energético lidera el crecimiento salarial mientras que Salud y Tecnología dominan el volumen de empleo. Los estados costeros concentran tanto establecimientos como empleos de alto salario. El dashboard permite filtrar por industria/estado para identificar oportunidades de fuerza laboral regional.",
+      "bars": [88, 46, 97, 62, 100, 64, 74],
+      "file": "/projects/labor-market.xlsx",
+      "dashboardImage": "/projects/dashboards/labor-market.png"
+    }
+    // Los demás proyectos se mantienen en el archivo projects.ts
+  ],
+  "tools": [
+    { "name": "SQL", "tag": "QUERY · JOIN · CTE" },
+    { "name": "Power BI", "tag": "DAX · MODELING" },
+    { "name": "Python", "tag": "ANALYSIS · EDA" },
+    { "name": "Excel", "tag": "MODELING · PIVOT" },
+    { "name": "Pandas", "tag": "WRANGLING" },
+    { "name": "NumPy", "tag": "COMPUTE" },
+    { "name": "Power Query", "tag": "ETL" },
+    { "name": "DAX", "tag": "MEASURES" },
+    { "name": "Google Sheets", "tag": "COLLAB" }
+  ],
+  "notes": [
+    { "title": "Por qué importan los datos limpios", "meta": "DATOS · 5 MIN LECTURA", "text": "Ningún modelo sobrevive a mala entrada. Checklist para perfilar, duplicados y nulos antes de cualquier gráfico." },
+    { "title": "Patrones SQL que reutilizo semanalmente", "meta": "SQL · 7 MIN LECTURA", "text": "CTEs, funciones de ventana y cohortes que responden el 80% de preguntas de negocio." },
+    { "title": "Diseñando Power BI para decisiones", "meta": "POWER BI · 6 MIN LECTURA", "text": "Una página, una pregunta. Cómo estructuro medidas, filtros y jerarquía visual." },
+    { "title": "Flujo Excel → Power BI", "meta": "EXCEL · 8 MIN LECTURA", "text": "De hojas crudas a modelos dinámicos a medidas DAX — el pipeline que uso en cada proyecto de cliente." },
+    { "title": "Power Query patrones para datos sucios", "meta": "POWER QUERY · 6 MIN LECTURA", "text": "Desanidar, coincidencia difusa y consultas parametrizadas que ahorran horas de limpieza manual." }
+  ]
+}

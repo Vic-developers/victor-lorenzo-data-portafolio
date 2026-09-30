@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#f7f7f5"/>
+  <text x="600" y="50" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700" fill="#111" text-anchor="middle">DASHBOARD MERCADO LABORAL AVANZADO (SOLUCIÓN)</text>
+  
+  <!-- KPI Cards -->
+  <g font-family="Inter, sans-serif">
+    <rect x="40" y="80" width="260" height="100" rx="8" fill="#fff" stroke="#d9d9d4"/>
+    <text x="70" y="115" font-size="11" letter-spacing="1.2" fill="#666">SEGMENTADORES DINÁMICOS</text>
+    <text x="70" y="155" font-family="Space Grotesk" font-size="28" font-weight="700" fill="#00a6a6">INDUSTRIA / ESTADO / AÑO</text>
+    
+    <rect x="320" y="80" width="260" height="100" rx="8" fill="#fff" stroke="#d9d9d4"/>
+    <text x="350" y="115" font-size="11" letter-spacing="1.2" fill="#666">MÉTRICA NORMALIZADA</text>
+    <text x="350" y="155" font-family="Space Grotesk" font-size="28" font-weight="700" fill="#111">EMPLEO / 100 CAPITA</text>
+    
+    <rect x="600" y="80" width="260" height="100" rx="8" fill="#fff" stroke="#d9d9d4"/>
+    <text x="630" y="115" font-size="11" letter-spacing="1.2" fill="#666">CÁLCULOS INTEGRADOS</text>
+    <text x="630" y="155" font-family="Space Grotesk" font-size="28" font-weight="700" fill="#111">YoY % SALARIO / PLANTILLA</text>
+    
+    <rect x="880" y="80" width="260" height="100" rx="8" fill="#fff" stroke="#d9d9d4"/>
+    <text x="910" y="115" font-size="11" letter-spacing="1.2" fill="#666">CONTROL FORMATO</text>
+    <text x="910" y="155" font-family="Space Grotesk" font-size="28" font-weight="700" fill="#00a6a6">THEMING DINÁMICO</text>
+  </g>
+
+  <!-- Industry Trend Comparison -->
+  <g font-family="Inter, sans-serif" transform="translate(60, 220)">
+    <text x="0" y="0" font-size="14" font-weight="600" fill="#111">TENDENCIAS SALARIALES NORMALIZADAS POR INDUSTRIA 2021–2024</text>
+    <rect x="0" y="20" width="1080" height="200" fill="none" stroke="#d9d9d4"/>
+    
+    <!-- Multiple lines for industries -->
+    <polyline fill="none" stroke="#00a6a6" stroke-width="3" points="0,180 180,140 360,110 540,90 720,80 900,75 1080,70"/>
+    <polyline fill="none" stroke="#111" stroke-width="2" stroke-dasharray="5,5" points="0,190 180,160 360,135 540,120 720,110 900,105 1080,100"/>
+    <polyline fill="none" stroke="#666" stroke-width="2" stroke-dasharray="3,3" points="0,200 180,185 360,175 540,165 720,160 900,155 1080,150"/>
+    <polyline fill="none" stroke="#d9d9d4" stroke-width="2" points="0,170 180,155 360,140 540,130 720,125 900,120 1080,115"/>
+    
+    <text x="0" y="220" font-size="10" fill="#666">2021</text>
+    <text x="180" y="220" font-size="10" fill="#666">2022</text>
+    <text x="360" y="220" font-size="10" fill="#666">2023</text>
+    <text x="540" y="220" font-size="10" fill="#666">2024</text>
+    
+    <!-- Legend -->
+    <rect x="800" y="-20" width="18" height="18" rx="3" fill="#00a6a6"/>
+    <text x="825" y="-7" font-size="11" fill="#111">Energía</text>
+    <rect x="920" y="-20" width="18" height="18" rx="3" fill="#111" opacity="0.7"/>
+    <text x="945" y="-7" font-size="11" fill="#111">Tecnología</text>
+    <rect x="800" y="0" width="18" height="18" rx="3" fill="#666"/>
+    <text x="825" y="13" font-size="11" fill="#111">Salud</text>
+    <rect x="920" y="0" width="18" height="18" rx="3" fill="#d9d9d4"/>
+    <text x="945" y="13" font-size="11" fill="#111">Finanzas</text>
+  </g>
+
+  <!-- Employment per 100 Capita by State -->
+  <g font-family="Inter, sans-serif" transform="translate(60, 450)">
+    <text x="0" y="0" font-size="14" font-weight="600" fill="#111">EMPLEO POR 100 HABITANTES — TOP 10 ESTADOS (ENERGÍA 2024)</text>
+    <rect x="0" y="20" width="1080" height="160" fill="none" stroke="#d9d9d4"/>
+    
+    <!-- Horizontal bars -->
+    <text x="0" y="55" font-size="11" fill="#111" text-anchor="end">California</text>
+    <rect x="120" y="40" width="350" height="18" rx="3" fill="#00a6a6"/>
+    <text x="480" y="53" font-size="10" fill="#666">18.4</text>
+    
+    <text x="0" y="78" font-size="11" fill="#111" text-anchor="end">Texas</text>
+    <rect x="120" y="63" width="320" height="18" rx="3" fill="#00a6a6" opacity="0.9"/>
+    <text x="450" y="76" font-size="10" fill="#666">16.8</text>
+    
+    <text x="0" y="101" font-size="11" fill="#111" text-anchor="end">Florida</text>
+    <rect x="120" y="86" width="290" height="18" rx="3" fill="#00a6a6" opacity="0.8"/>
+    <text x="420" y="99" font-size="10" fill="#666">15.2</text>
+    
+    <text x="0" y="124" font-size="11" fill="#111" text-anchor="end">Nueva York</text>
+    <rect x="120" y="109" width="260" height="18" rx="3" fill="#00a6a6" opacity="0.7"/>
+    <text x="390" y="122" font-size="10" fill="#666">13.6</text>
+    
+    <text x="0" y="147" font-size="11" fill="#111" text-anchor="end">Illinois</text>
+    <rect x="120" y="132" width="230" height="18" rx="3" fill="#00a6a6" opacity="0.6"/>
+    <text x="360" y="145" font-size="10" fill="#666">12.1</text>
+    
+    <!-- Year slicer representation -->
+    <g transform="translate(0, 180)">
+      <text x="0" y="0" font-size="11" fill="#666">FILTRO AÑO: </text>
+      <rect x="80" y="-12" width="60" height="24" rx="4" fill="#fff" stroke="#d9d9d4"/>
+      <text x="110" y="4" font-size="11" fill="#111" text-anchor="middle">2024 ▼</text>
+      <rect x="160" y="-12" width="60" height="24" rx="4" fill="#fff" stroke="#d9d9d4"/>
+      <text x="190" y="4" font-size="11" fill="#111" text-anchor="middle">2023 ▼</text>
+      <rect x="240" y="-12" width="60" height="24" rx="4" fill="#fff" stroke="#d9d9d4"/>
+      <text x="270" y="4" font-size="11" fill="#111" text-anchor="middle">2022 ▼</text>
+      <rect x="320" y="-12" width="60" height="24" rx="4" fill="#fff" stroke="#d9d9d4"/>
+      <text x="350" y="4" font-size="11" fill="#111" text-anchor="middle">2021 ▼</text>
+    </g>
+  </g>
+</svg>
